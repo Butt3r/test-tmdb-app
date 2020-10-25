@@ -1,0 +1,40 @@
+body
+{
+    color: #fff;
+    background-color: black;
+    justify-content: space-around;
+}
+
+#loader
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    z-index: 4;
+}
+
+.arrowRight
+{
+  position: absolute;
+  margin-right: 9rem;
+  right: 10px;
+  bottom: 10%;
+  opacity: 0.6;
+}
+
+.arrowLeft
+{
+    position: absolute;
+    margin-left: 9rem;
+    left: 10px;
+    bottom: 10%;
+    opacity: 0.6;
+}
+
+.arrowRight:hover,
+.arrowLeft:hover
+{
+    opacity: 1;
+}
