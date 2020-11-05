@@ -1,7 +1,9 @@
-body
-{
-    color: #fff;
-    background-color: black;
+/* html{
+    cursor: none;
+} */
+
+body {
+    background-color: #121212;
     justify-content: space-around;
 }
 
@@ -15,21 +17,34 @@ body
     z-index: 4;
 }
 
-.arrowRight
+
+.cursor {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fefefe;
+    border-radius: 100%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: difference;
+  }
+
+/* .arrowRight
 {
   position: absolute;
-  margin-right: 9rem;
+  margin-right: 8rem;
   right: 10px;
-  bottom: 10%;
+  bottom: 6%;
   opacity: 0.6;
 }
 
 .arrowLeft
 {
     position: absolute;
-    margin-left: 9rem;
+    margin-left: 8rem;
     left: 10px;
-    bottom: 10%;
+    bottom: 6%;
     opacity: 0.6;
 }
 
@@ -37,4 +52,5 @@ body
 .arrowLeft:hover
 {
     opacity: 1;
-}
+} */
+
