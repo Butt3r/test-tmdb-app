@@ -1,1 +1,1 @@
-# tmdb powered movie finder
+# tmdb powered movie app
